@@ -6,11 +6,24 @@ This workshop teaches participants how to automate the extraction of data from w
 
 The workshop opens with an introduction to how web pages are structured and how selectors are used to target data within them, then moves into direct, hands-on experience with a series of scraping techniques that run the gamut from simple to complex: batch downloading, a full no-code workflow using the [Web Scraper](https://webscraper.io/web-scraper-extension) browser extension, and a set of Python techniques—from [pandas](https://pandas.pydata.org)' `read_html()` shortcut, to full HTML parsing with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/), working with APIs, and DOM parsing with [Selenium](https://www.selenium.dev) for JavaScript-heavy pages.
 
+## Learning goals
+
+By the end of the workshop, participants should be able to:
+
+- explain the basic structure of a web page (HTML, CSS/JavaScript, the DOM) and how browsers render it
+- use selectors to reliably target data on a page
+- map URLs and site structure to a collection plan
+- perform browser-based scraping workflows for common tasks (tables, lists, paginated results)
+- use batch downloading tools for files and structured resources where appropriate
+- extract tabular data from HTML programmatically and save it as a clean dataset
+- parse HTML with BeautifulSoup and understand when browser automation (e.g., Selenium) is necessary
+- apply basic “rules of the road” for responsible collection (rate limiting, avoiding unnecessary load, and keeping good documentation)
+
 ## Workshop Plan
 
 This is a two-day workshop with three hours of instruction on each day. You can find links to all the tools and resources mentioned during the workshop [here](/documents/Resources.md), and the exercises are listed in [this page](/documents/Exercises.md).
 
-### Day 1
+### Day 1: Web structure and browser-based scraping
 
 >[!IMPORTANT]
 >You'll need a recent version of [Chrome](https://www.google.com/chrome/) and the [Web Scraper](https://webscraper.io) extension.
@@ -28,24 +41,24 @@ This is a two-day workshop with three hours of instruction on each day. You can 
     - [Basic selectors](/documents/Web-Scraper.md#basic-selectors): text, link, image, HTML, table
     - [Advanced selectors](/documents/Web-Scraper.md#advanced-selectors): groups, generic elements, scroll, click, pagination
 
-### Day 2
+### Day 2: Programmatic approaches in Python
 
 >[!IMPORTANT]
 >Please follow the [instructions here](/documents/Setup-instructions.md) to ensure you have the necessary software for day 2.
 >
 
-- #### Shortcut: Using pandas [`read_html`](/documents/Pandas-read-html.md)
+- #### Fast paths: pulling tables with [`read_html`](/documents/Pandas-read-html.md)
     - [What it does](/documents/Pandas-read-html.md#what-it-does)
     - [Looping over multiple pages](/documents/Pandas-read-html.md#looping-over-multiple-pages)
     - [When this isn't enough](/documents/Pandas-read-html.md#when-this-isnt-enough)
-- #### HTML Parsing with [BeautifulSoup](/documents/BeautifulSoup.md)
-    - [Downloading a page](/documents/BeautifulSoup.md#downloading-a-page)
-    - [Finding a single element](/documents/BeautifulSoup.md#finding-a-single-element) and [finding every match](/documents/BeautifulSoup.md#finding-every-match)
-    - [Turning it into a reusable scraper](/documents/BeautifulSoup.md#turning-it-into-a-reusable-scraper)
 - #### Using [APIs](/documents/Using-APIs.md)
     - [Why prefer an API](/documents/Using-APIs.md#why-prefer-an-api)
     - [Worked example: Harvard's LibraryCloud API](/documents/Using-APIs.md#worked-example-harvards-librarycloud-api)
     - [Finding an API](/documents/Using-APIs.md#finding-an-api)
+- #### HTML Parsing with [BeautifulSoup](/documents/BeautifulSoup.md)
+    - [Downloading a page](/documents/BeautifulSoup.md#downloading-a-page)
+    - [Finding a single element](/documents/BeautifulSoup.md#finding-a-single-element) and [finding every match](/documents/BeautifulSoup.md#finding-every-match)
+    - [Turning it into a reusable scraper](/documents/BeautifulSoup.md#turning-it-into-a-reusable-scraper)
 - #### DOM Parsing with [Selenium](/documents/Selenium.md)
     - [Basic workflow](/documents/Selenium.md#basic-workflow)
     - [Following pagination](/documents/Selenium.md#following-pagination)
