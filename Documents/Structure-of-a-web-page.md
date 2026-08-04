@@ -35,10 +35,10 @@ As the name suggests, this component is responsible for rendering a specific web
 ### This HTML code:
 
 ```HTML
-    <h2 title="TEST">The Title!</h2>
-	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-	<a href="http://www.harvard.edu" title="">this is a link</a>
+    <h2>The Title!</h2>
+	<p>Lorem ipsum dolor sit amet, <i>consectetuer adipiscing elit</i>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero <b>eros et accumsan</b> et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, <span id="span_1">sed diam nonummy nibh euismod tincidunt</span> ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu <span class="underlined">feugiat nulla facilisis at vero eros et accumsan</span> et iusto odio dignissim qui blandit praesent <span class="underlined">luptatum zzril delenit augue duis dolore</span> te feugait nulla facilisi.</p>
+	<a href="http://www.harvard.edu">this is a link</a>
     <p>This is <i>some</i> text</p>
 	<p>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Ancient_Egypt_and_Mesopotamia_c._1450_BC.png" height="800" width="100"/>
@@ -47,12 +47,12 @@ As the name suggests, this component is responsible for rendering a specific web
 
 ### Renders as:
 
-<h2 title="TEST">The Title!</h2>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-<a href="http://www.harvard.edu" title="">this is a link</a>
+<h2>The Title!</h2>
+<p>Lorem ipsum dolor sit amet, <i>consectetuer adipiscing elit</i>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero <b>eros et accumsan</b> et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, <span id="span_1">sed diam nonummy nibh euismod tincidunt</span> ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu <span class="underlined">feugiat nulla facilisis at vero eros et accumsan</span> et iusto odio dignissim qui blandit praesent <span class="underlined">luptatum zzril delenit augue duis dolore</span> te feugait nulla facilisi.</p>
+<a href="http://www.harvard.edu">this is a link</a>
 <p>This is <i>some</i> text</p>
 <p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Ancient_Egypt_and_Mesopotamia_c._1450_BC.png" height="800" width="800"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Ancient_Egypt_and_Mesopotamia_c._1450_BC.png" height="800" width="100"/>
 </p>
 

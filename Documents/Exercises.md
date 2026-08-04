@@ -38,4 +38,3 @@
 `Source:` [New York Times Article Database](https://query.nytimes.com/search/sitesearch/) <br/>
 `Target:` articles written by academics in the past five years <br/>
 `Data:` title/headline, date of publication, author/s, section
-
