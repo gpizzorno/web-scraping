@@ -1,6 +1,6 @@
 # Web Scraping
 
-<img align="right" src="assets/web_scraping_thumb.png" width=300  />
+<img align="right" src="assets/thumbnail.png" width=300  />
 
 This workshop teaches participants how to automate the extraction of data from websites and other online repositories into a well-formatted, locally stored dataset, for later analysis. Web scraping tools make the process of collecting large amounts of online information more efficient, and help automate an otherwise tedious, time-consuming, and error-prone process.
 
