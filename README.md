@@ -67,7 +67,7 @@ This is a two-day workshop with three hours of instruction on each day. You can 
 ## Repository Structure
 
 - [`documents/`](/documents) — reference material for every topic covered in the workshop, linked throughout this README
-- [`examples/`](/examples) — Jupyter notebooks with hands-on, runnable examples, primarily for Day 2
+- [`notebooks/`](/notebooks) — Jupyter notebooks with hands-on, runnable examples, primarily for Day 2
 - [`assets/`](/assets) — images embedded in the reference material
 - [`images/`](/images), [`output/`](/output) — empty, gitignored scratch folders that some of the example notebooks write their downloaded/generated files into
 
